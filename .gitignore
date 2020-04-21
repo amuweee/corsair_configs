@@ -1,0 +1,31 @@
+# ignore everything
+/*
+
+# always ignore __pycache__
+**/__pycache__/*
+**.py~
+
+# except these files in the same root
+!.bashrc
+!.gitignore
+!.oh-my-zsh
+!README.md
+!requirements.txt
+!.vimrc
+!.xinitrc
+!.Xresources
+!.zshrc
+
+# i3 subfolder
+!.i3/
+.i3/*
+!i3/config
+
+# .config
+!.config/
+.config/*
+!.config/compton.conf
+
+# polybar
+!.config/polybar/
+!.config/ranger/
